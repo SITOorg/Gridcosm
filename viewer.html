@@ -6,13 +6,15 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/gridcosmviewer.js"></script>
 <script>
-	GRIDCOSMVIEWER.init();
+	GRIDCOSMVIEWER.init({
+		"displayRatioWidth": (3/4)
+	});
 </script>
 </head>
 
 <body>
 <h1>Gridcosm Animated Viewer</h1>
-An animated view of the long-running 
+An animated view of the 
 <a href="http://sito.org/synergy/gridcosm">Gridcosm</a> cooperative art project.
 <div id="viewport" class="maincolumn"></div>
 <div id="controls" class="maincolumn">

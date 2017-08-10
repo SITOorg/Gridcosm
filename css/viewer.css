@@ -2,6 +2,10 @@
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+body {
+	font-family: sans-serif;
+}
+
 #controls {
 	text-align: center;
 }
@@ -30,7 +34,7 @@
 }
 
 .maincolumn {
-	xmax-width: 1240px;
+	max-width: 600;
 	width: 100%;
 	margin: auto;
 }
@@ -59,10 +63,10 @@
 
 .lvl {
 	position: absolute;
-	top: 33.333333333333%;
-	left: 33.33333333333333%;
-	width: 33.333333333333%;
-	height: 33.3333333333%;
+	top: 33.33333333333333333333333%;
+	left: 33.33333333333333333333333333333%;
+	width: 33.33333333333333333333333333%;
+	height: 33.333333333333333333333333%;
 	background-size: cover;
 }
 
