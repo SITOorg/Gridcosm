@@ -75,10 +75,12 @@ var GRIDCOSMVIEWER = function() { // eslint-disable-line no-unused-vars
 			// measure mid square's dims
 			var vpw = $("#viewport").width();
 			var vph = $("#viewport").height();
-			var midMinX = vpw * 0.33333;
-			var midMaxX = vpw * 0.66666;
-			var midMinY = vph * 0.33333;
-			var midMaxY = vph * 0.66666;
+			var oneThird = (1/3);
+			var twoThirds = (2/3);
+			var midMinX = vpw * oneThird;
+			var midMaxX = vpw * twoThirds;
+			var midMinY = vph * oneThird;
+			var midMaxY = vph * twoThirds;
 
 			// get click position
 			var opos = $(this).offset(),

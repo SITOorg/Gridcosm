@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Gridcosm Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/viewer.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/gridcosmviewer.js"></script>
@@ -13,19 +14,21 @@
 </head>
 
 <body>
-<h1>Gridcosm Animated Viewer</h1>
-An animated view of the 
-<a href="http://sito.org/synergy/gridcosm">Gridcosm</a> cooperative art project.
-<div id="viewport" class="maincolumn"></div>
-<div id="controls" class="maincolumn">
-	<div id="snap_in" title="Animate to previous/older level" class="controlbutton">&laquo;</div>
-	<div id="zoom_in" title="Start continuous animation toward oldest level" class="controlbutton">in</div>
-	<div id="levelinput"><input type="text" size="4" maxlength="4"/>
-<br/>
-<span class="level_link"></span>
-</div>
-	<div id="zoom_out" title="Start continuous animation toward newest level" class="controlbutton">out</div>
-	<div id="snap_out" title="Animate to next/newer level" class="controlbutton">&raquo;</div>
-</div>
+	<header class="maincolumn">
+		<h1>Gridcosm Animated Viewer</h1>
+		An animated view of the 
+		<a href="http://sito.org/synergy/gridcosm">Gridcosm</a> cooperative art project.
+	</header>
+	<div id="viewport" class="maincolumn"></div>
+	<div id="controls" class="maincolumn">
+		<div id="snap_in" title="Animate to previous/older level" class="controlbutton">&laquo;</div>
+		<div id="zoom_in" title="Start continuous animation toward oldest level" class="controlbutton">in</div>
+		<div id="levelinput"><input type="text" size="4" maxlength="4"/>
+	<br/>
+	<span class="level_link"></span>
+	</div>
+		<div id="zoom_out" title="Start continuous animation toward newest level" class="controlbutton">out</div>
+		<div id="snap_out" title="Animate to next/newer level" class="controlbutton">&raquo;</div>
+	</div>
 </body>
 </html>
